@@ -1,0 +1,7 @@
+$ echo '0   string  SCHOOL  School data file' > school.mgc
+$ file -C -m school.mgc
+$ file -m school.mgc thisisaschoolfile
+thisisaschoolfile: School data file
+$ file -m school.mgc thisisatextfile
+thisisatextfile: ASCII text
+
