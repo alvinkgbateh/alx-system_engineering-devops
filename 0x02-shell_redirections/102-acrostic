@@ -1,0 +1,10 @@
+#!/bin/bash
+
+filename="An Acrostic"
+
+while IFS= read -r line; do
+  first_letter="${line:0:1}"
+  decoded_message+="$first_letter"
+done < "$filename"
+
+echo "$decoded_message"
