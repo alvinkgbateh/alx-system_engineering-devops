@@ -1,2 +1,5 @@
-[InternetShortcut]
-URL=https://github.com/Anteneh2121/alx-system_engineering-devops/blob/main/0x14-mysql/5-mysql_backup
+
+#!/usr/bin/env bash
+#generates a MySQL dump and creates a compressed archive out of it
+mysqldump -uroot -p"$1" --all-databases > backup.sql
+tar -zcvf "$(date '+%d-%m-%Y').tar.gz" backup.sql
