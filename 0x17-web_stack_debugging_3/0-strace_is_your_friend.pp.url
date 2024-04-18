@@ -1,2 +1,7 @@
-[InternetShortcut]
-URL=https://github.com/alvinkgbateh/alx-system_engineering-devops/blob/master/0x17-web_stack_debugging_3/0-strace_is_your_friend.pp
+
+#replaces typo string in wp settings file
+exec { 'change to php':
+  command => "sed -i 's/class-wp-locale.phpp/class-wp-locale.php/g' /var/www/html/wp-setti\
+ngs.php",
+  path    => '/bin'
+}
