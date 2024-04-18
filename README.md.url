@@ -1,0 +1,6 @@
+[InternetShortcut]
+URL=https://github.com/alvinkgbateh/alx-system_engineering-devops/blob/master/README.md
+System Engineering and DevOps
+This repository contains scripts and programs that I wrote during the System Engineering and DevOps portion of the Alx curriculum. In these projects, I learned how to write bashscripts to automate tasks, networking basics, debugging practices, and API fetching. I also configured a distributed system that was composed of two web servers and one load balancer. I used Nginx, HAProxy and UFW to do this. Here's the complete list of projects:
+
+0x00-python-hello_world
