@@ -1,5 +1,2 @@
-
-#!/usr/bin/env bash
-#creates a symbolic link to configure Nginx server and restarts it
-ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-service nginx restart
+[InternetShortcut]
+URL=https://github.com/dwkwan/holberton-system_engineering-devops/blob/master/0x0E-web_stack_debugging_1/0-nginx_likes_port_80
