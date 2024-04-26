@@ -1,2 +1,5 @@
-[InternetShortcut]
-URL=https://github.com/alvingkamara/Alx-system_engineering-devops/tree/master/0x0E-web_stack_debugging_1
+
+#!/usr/bin/env bash
+#creates a symbolic link to configure Nginx server and restarts it
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
